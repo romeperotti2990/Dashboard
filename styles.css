@@ -41,17 +41,30 @@ header {
 
 header input {
   padding: 20px;
-  margin-right: auto;
-  width: 40%;
   height: 10px;
+  width: 90%;
+}
+
+.search {
+  position: relative;
+  width: 120%;
+  max-width: 400px;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  margin: 0;
+  margin-right: auto;
+  box-shadow: none;
 }
 
 header button {
   position: absolute;
-  transform: translateX(-630px);
   background-color: #2f709c;
   height: 40px;
   width: 80px;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
 }
 
 header button img {
